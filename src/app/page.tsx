@@ -54,7 +54,7 @@ export default function LandingPage() {
           </Button>
         </div>
       </header>
-      <main className="flex-1">
+      <main className="flex-1 pt-14 md:pt-20">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-r from-blue-200 to-purple-200">
           <div className="container max-w-6xl px-4 md:px-6 mx-auto">
             <div className="flex flex-col items-center space-y-4 text-center">
