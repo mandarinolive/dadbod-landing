@@ -60,10 +60,10 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-gray-800">
-                  Transform Your Dad Bod with AI-Powered Fitness
+                  The AI Fitness Revolution for Dads
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl">
-                  Achieve your fitness goals with personalized workouts, nutrition advice, and motivation tailored for busy dads. Elevate your health and confidence today!
+                  Take control of your health with customized, AI-driven workouts and nutrition plans—created specifically for busy dads.
                 </p>
               </div>
               <form onSubmit={handleSubmit} className="w-full max-w-md space-y-2">
@@ -94,7 +94,7 @@ export default function LandingPage() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-gray-800">Time Constraints</h3>
                   <p className="text-gray-600">
-                    Balancing work, family, and personal health seems impossible. We make it possible.
+                    Juggling family life and work? Our AI adapts workouts and meals to fit your busy schedule, so you can prioritize your health without the stress.
                   </p>
                 </CardContent>
               </Card>
@@ -102,7 +102,7 @@ export default function LandingPage() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-gray-800">Outdated Fitness Programs</h3>
                   <p className="text-gray-600">
-                    Traditional programs don&apos;t cater to the dad lifestyle. Ours is built for you.
+                    Fitness apps don&apos;t get the demands of being a dad. Our AI designs personalized plans tailored to your specific needs as a father, focusing on sustainable results.
                   </p>
                 </CardContent>
               </Card>
@@ -110,7 +110,7 @@ export default function LandingPage() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-gray-800">Lack of Sustainable Motivation</h3>
                   <p className="text-gray-600">
-                    Staying committed is tough without proper guidance. We&apos;re here to keep you on track.
+                    Struggling with consistency? Our AI tracks your progress and sends you timely encouragement, so you stay motivated throughout your transformation journey.
                   </p>
                 </CardContent>
               </Card>
