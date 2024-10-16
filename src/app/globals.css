@@ -34,10 +34,12 @@ header {
   z-index: 10;
   top: 0;
   background: #e0f2ff; /* Ensure header background is visible */
+  margin-bottom: 0;  /* Remove bottom margin */
 }
 
 main {
-  margin-top: 80px; /* Adjust this based on header height */
+  margin-top: 60px; /* Adjust this based on header height */
+  padding-top: 0; /* Ensure no extra padding is added */
 }
 
 /* Mobile specific styling */
@@ -48,7 +50,7 @@ main {
   }
 
   main {
-    margin-top: 60px; /* Reduce margin for mobile */
+    margin-top: 60px; /* Adjust margin for mobile */
   }
 }
 
@@ -59,6 +61,6 @@ main {
   }
 
   main {
-    margin-top: 60px; /* Adjust accordingly */
+    margin-top: -80px; /* Adjust accordingly */
   }
 }

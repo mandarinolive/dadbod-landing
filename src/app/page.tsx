@@ -6,7 +6,7 @@ import { Dumbbell, Utensils, Users, BarChart3 } from "lucide-react"
 import Link from "next/link"
 
 export default function LandingPage() {
-  const [email, setEmail] = useState('')
+  const [email, setEmail] = useState('');
 
   const handleSubmit = useCallback(async (e: React.FormEvent) => {
     e.preventDefault();

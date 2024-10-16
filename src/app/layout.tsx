@@ -27,8 +27,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ margin: 0, padding: 0 }}
       >
-        {children}
+        <div className="app-wrapper" style={{ marginTop: 0, paddingTop: 0 }}>
+          {children}
+        </div>
       </body>
     </html>
   );
